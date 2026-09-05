@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jomok Meme 🗿</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #111, #333);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+
+            padding: 25px;
+
+            text-align: center;
+
+            background: #222;
+            border-radius: 20px;
+
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .meme {
+            width: 100%;
+            border-radius: 15px;
+
+            display: block;
+            margin: 20px auto;
+
+            transition: transform 0.3s;
+        }
+
+        .meme:hover {
+            transform: scale(1.03);
+        }
+
+        .caption {
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        button {
+            border: none;
+            padding: 12px 20px;
+
+            border-radius: 10px;
+
+            background: white;
+            color: #111;
+
+            font-weight: bold;
+            cursor: pointer;
+
+            transition: 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>JOMOK 🗿</h1>
+
+        <img
+            class="meme"
+            src="https://sticker.ly/_next/image?url=https%3A%2F%2Fstickershop.line-scdn.net%2Fstickershop%2Fv1%2Fproduct%2F218X4E%2FANDROID%2Fproduct%2F218X4E%2Fpreview.png&w=640&q=75"
+            alt="Meme Jomok"
+        >
+
+        <p class="caption">
+            Meme jomok dari internet 💀
+        </p>
+
+        <button onclick="location.reload()">
+            Refresh Meme
+        </button>
+
+    </div>
+
+</body>
+</html>
