@@ -1,6 +1,11 @@
 RENCANA INVESTASI KE DEPAN
 - Bitcoin
 - Saham
+  ^ BBCA
+  ^ BRPT
+  ^ MEJA
 - Reksa Dana
+  ^ Majoris Pasar Uang Syariah
 - Private Equity
 - Judol
+- Gold
