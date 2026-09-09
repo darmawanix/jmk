@@ -3,6 +3,7 @@ RENCANA INVESTASI KE DEPAN
 - Saham
   ^ BBCA
   ^ BRPT
+  ^ MEJA
 - Reksa Dana
   ^ Majoris Pasar Uang Syariah
 - Private Equity
